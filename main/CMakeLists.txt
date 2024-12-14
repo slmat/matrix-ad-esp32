@@ -1,0 +1,10 @@
+idf_component_register(SRCS "main.c" 
+                            "include/global/global.c" 
+                            "include/WEB/WEB.c" 
+                            "include/AP/AP.c"
+                            "include/text_cont/text_cont.c"
+                            "include/clock/clock.c"
+                            "include/display/maxCharMap.c"
+                            "include/display/max7219.c"
+                            "include/display/display.c"
+                    INCLUDE_DIRS ".")
